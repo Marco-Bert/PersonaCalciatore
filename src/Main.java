@@ -7,5 +7,11 @@ public class Main {
 
         Persona persona2 = (Persona) persona1.clone();
         System.out.println(persona2.toString());
+
+
+        System.out.println("Test classe Calciatore");
+
+        Calciatore calciatore1 = new Calciatore("centro", 2, 3, "pietro", "5/35/2344", "dfkjslfklklhjsdf");
+        System.out.println(calciatore1.toString());
     }
 }
