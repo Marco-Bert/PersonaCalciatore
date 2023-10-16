@@ -13,5 +13,8 @@ public class Main {
 
         Calciatore calciatore1 = new Calciatore("centro", 2, 3, "pietro", "5/35/2344", "dfkjslfklklhjsdf");
         System.out.println(calciatore1.toString());
+
+        Calciatore calciatore2 = (Calciatore) calciatore1.clone();
+        System.out.println(calciatore2.toString());
     }
 }
