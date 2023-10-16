@@ -28,6 +28,9 @@ public class Persona {
     public Object clone(){
         return (Object) new Persona(this.nome, this.dataNascita, this.sesso);
     }
+    public String toStringInner(){
+        return "\"nome\": \"" + this.nome + "\", \"dataNascita\": \"" + this.dataNascita + "\", \"sesso\": \"" + this.sesso + "\", ";
+    }
     public String toString(){
         return "{\"nome\": \"" + this.nome + "\", \"dataNascita\": \"" + this.dataNascita + "\", \"sesso\": \"" + this.sesso + "\"}";
     }
